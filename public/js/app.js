@@ -99,6 +99,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -112,6 +116,16 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -603,9 +617,22 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("p", [_vm._v("About")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "test2" }, [
+      _c("p", [_vm._v("About")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("А это шаблон About!")]),
+      _vm._v(" "),
+      _c("h1", [_vm._v("About test template!")])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -627,9 +654,84 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("p", [_vm._v("Home")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "test" }, [
+      _c("p", [_vm._v("Home")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("home "),
+        _c("span", [
+          _vm._v(
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem dolore excepturi? Aliquam, architecto aspernatur dolorem eos est ex ipsam nesciunt odio quidem quo sunt tempora ullam, voluptate! Adipisci, recusandae?"
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Accusantium asperiores, deserunt distinctio eveniet, illo iste libero modi perspiciatis provident recusandae sit totam vel velit? Accusamus ad beatae est laborum, qui sequi ullam? Beatae cum dolore saepe suscipit voluptate."
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Alias aliquam amet aspernatur cumque delectus dolores ducimus eius, eligendi eum facere fugit id in labore maiores, necessitatibus nihil optio rem repellat sed sit, sunt suscipit ullam ut veritatis voluptatem?"
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Alias consequatur earum eveniet incidunt, itaque libero magnam molestiae, natus nobis nulla quae quam, quo recusandae rem sapiente soluta ut. Amet autem ea eaque magni non odio officia perferendis unde?"
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Amet, corporis, cumque earum exercitationem fugiat harum iure modi nemo nesciunt odit quis quo sapiente unde. Animi dicta doloremque, enim iusto minus modi natus nobis officiis recusandae sunt velit voluptatem."
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Adipisci corporis cum cumque deleniti doloribus ea eaque enim est, eum, exercitationem facere fugit harum illum ipsam natus quae quaerat quos sed, veniam voluptas? Atque aut culpa eligendi officiis voluptatem?"
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Dicta excepturi fugit quam? Adipisci cumque cupiditate delectus dicta, doloremque incidunt, iure laborum minus neque nesciunt obcaecati omnis quae quam quisquam quod repellat reprehenderit sint, tenetur ut veniam! Nemo, quam!"
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "A, amet animi explicabo magnam maiores nemo nobis obcaecati quaerat tempora tempore temporibus ut? A doloremque ipsa modi odit pariatur quia sapiente suscipit tempora veniam vitae! Animi assumenda hic quasi!"
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Accusamus accusantium aliquid autem blanditiis consectetur cupiditate deserunt, distinctio doloribus ducimus exercitationem iste iure laborum minus mollitia, non obcaecati odit officiis perferendis quibusdam quos reprehenderit saepe sequi vero voluptas voluptatibus."
+          )
+        ]),
+        _c("span", [
+          _vm._v(
+            "Alias consequuntur deleniti dignissimos itaque molestias quos recusandae, veniam! Ab alias aliquam beatae, commodi deserunt dicta dolor eligendi et, eum labore neque nostrum officia, repudiandae rerum similique vitae voluptatum? Error!"
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("ul", [
+        _c("li", [_vm._v("item 1")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("item 2")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("item 3")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("item 4")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("item 5")])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
