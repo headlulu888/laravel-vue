@@ -9,7 +9,7 @@
     </head>
     <body>
         <div id="app">
-            <div class="container mx-auto bg-grey">
+            <div class="container mx-auto bg-gray-100">
                 <header class="mb-6 py-6">
                     <h1>Laracasts</h1>
                 </header>
